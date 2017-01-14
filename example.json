@@ -1,0 +1,24 @@
+{
+  "_id": "c-05",
+  "_layout": "left",
+  "_type": "component",
+  "_parentId": "b-05",
+  "body": "<p>Magna occaecat ex consequat, frankfurter <span class=\"tidbit-trigger tidbit-color\" data-bitnum=\"0\"><u><strong>shankle</strong></u></span> corned beef pork chop brisket veniam tempor rump boudin laboris dolore. Spare ribs <span class=\"tidbit-trigger tidbit-color\" data-bitnum=\"1\"><u><strong>biltong</strong></u></span> meatball.</p>",
+  "displayTitle": "Tidbits",
+  "title": "Tidbits",
+  "_isAvailable": true,
+  "_isOptional": false,
+  "_classes": "",
+  "_component": "tidbits",
+  "instruction": "",
+  "_tidbits": [
+    {
+      "theTitle": "Shankle",
+      "theBody": "<p>Duis proident sed pork loin. Tail porchetta leberkas drumstick irure t-bone duis salami alcatra. Pork loin culpa brisket id consequat, <strong>sausage kielbasa</strong> burgdoggen voluptate doner landjaeger dolore cupidatat chicken.</p>\n"
+    },
+    {
+      "theTitle": "Biltong",
+      "theBody": "<p>Capicola filet mignon deserunt pastrami bacon turkey lorem meatball occaecat shoulder dolor beef ribs burgdoggen aliquip. <strong>Shankle</strong> qui est, meatball non meatloaf in. Consequat exercitation andouille, shoulder chicken aliqua swine. Turkey hamburger ex shank capicola, aute fatback.</p>\n"
+    }
+  ]
+}
