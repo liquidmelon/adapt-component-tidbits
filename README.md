@@ -29,9 +29,9 @@ data-bitnum: the index of the tidbit to be opened
 
 ##Screenshots
 
-![tidbits_ss1](https://cloud.githubusercontent.com/assets/24887794/21952826/56e89092-d9db-11e6-9848-5d1be7e83193.png)
-![tidbits_ss2](https://cloud.githubusercontent.com/assets/24887794/21952827/571683e4-d9db-11e6-8800-a985880daca4.png)
-![tidbits_ss3](https://cloud.githubusercontent.com/assets/24887794/21952828/5721374e-d9db-11e6-95b9-aa86d716e960.png)
+![tidbits_ss1](https://cloud.githubusercontent.com/assets/24887794/21952878/9f1f8716-d9dc-11e6-9617-0711f5fc330c.png)
+![tidbits_ss2](https://cloud.githubusercontent.com/assets/24887794/21952879/9f22e7d0-d9dc-11e6-891d-64bde177864e.png)
+![tidbits_ss3](https://cloud.githubusercontent.com/assets/24887794/21952877/9f1eee50-d9dc-11e6-90f7-ba1981c07a04.png)
 
 
 
