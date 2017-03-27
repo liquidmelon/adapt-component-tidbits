@@ -1,6 +1,7 @@
 {
   "name": "adapt-component-tidbits",
-  "version": "0.0.1",
+  "repository": "git://github.com/liquidmelon/adapt-component-tidbits.git",
+  "version": "0.0.1.1",
   "framework": "^2.0.0",
   "homepage": "https://github.com/liquidmelon/adapt-component-tidbits",
   "issues": "https://github.com/liquidmelon/adapt-component-tidbits",
