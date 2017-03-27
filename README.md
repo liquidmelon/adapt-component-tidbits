@@ -1,19 +1,20 @@
 # adapt-component-tidbits
-a text component with links that display more information in a popup
+
+**Tidbits** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework) that displays text with links that provide more information in a popup.
+
+**Tidbits** is based on [adaptlearning's text component](https://github.com/adaptlearning/adapt-contrib-text) and uses the built-in core module [Notify](https://github.com/adaptlearning/adapt_framework/wiki/Core-modules#notify) to handle the popup notifications.
 
 
 
-this component was derived from adaptlearning's text component which can be found here: https://github.com/adaptlearning/adapt-contrib-text
+## Screenshots
 
-this component uses adaptlearning's built-in core module Notify to handle the popup notifications: https://github.com/adaptlearning/adapt_framework/wiki/Core-modules#notify
-
-
-
-the text must have at least one link that opens a popup. you must open all popups for the component to be completed.
+![tidbits_ss1](https://cloud.githubusercontent.com/assets/24887794/21952878/9f1f8716-d9dc-11e6-9617-0711f5fc330c.png)
+![tidbits_ss2](https://cloud.githubusercontent.com/assets/24887794/21952879/9f22e7d0-d9dc-11e6-891d-64bde177864e.png)
+![tidbits_ss3](https://cloud.githubusercontent.com/assets/24887794/21952877/9f1eee50-d9dc-11e6-90f7-ba1981c07a04.png)
 
 
 
-##Text Links
+## Text Links
 
 create the text links like this:
 
@@ -27,14 +28,18 @@ data-bitnum: the index of the tidbit to be opened
 
 
 
-##Screenshots
+## Notes
 
-![tidbits_ss1](https://cloud.githubusercontent.com/assets/24887794/21952878/9f1f8716-d9dc-11e6-9617-0711f5fc330c.png)
-![tidbits_ss2](https://cloud.githubusercontent.com/assets/24887794/21952879/9f22e7d0-d9dc-11e6-891d-64bde177864e.png)
-![tidbits_ss3](https://cloud.githubusercontent.com/assets/24887794/21952877/9f1eee50-d9dc-11e6-90f7-ba1981c07a04.png)
+the text must have at least one link that opens a popup. you must open all popups for the component to be completed.
 
 
 
 ## Limitations
 
-there are no known limitations at this time.
+not known at this time
+
+
+
+----------------------------
+**Version number:** 0.0.1.1<br>
+**Framework versions:** ^2.0.0
