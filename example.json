@@ -3,7 +3,7 @@
   "_layout": "left",
   "_type": "component",
   "_parentId": "b-05",
-  "body": "<p>Magna occaecat ex consequat, frankfurter <span class=\"tidbit-trigger tidbit-color\" data-bitnum=\"0\"><u><strong>shankle</strong></u></span> corned beef pork chop brisket veniam tempor rump boudin laboris dolore. Spare ribs <span class=\"tidbit-trigger tidbit-color\" data-bitnum=\"1\"><u><strong>biltong</strong></u></span> meatball.</p>",
+  "body": "<p>Magna occaecat ex consequat, frankfurter <span class=\"tidbit-color tidbit-trigger\" data-bitnum=\"0\"><strong><u>shankle</u></strong></span> corned beef pork chop brisket veniam tempor rump boudin laboris dolore. Spare ribs biltong meatball.</p><p>Porchetta esse ullamco, pancetta ham hock andouille ex excepteur ground round <span class=\"tidbit-color tidbit-trigger\" data-bitnum=\"1\"><strong><u>rump salami</u></strong></span> exercitation ut. Sirloin aliqua beef ribs ribeye. Fatback laborum labore, pancetta pariatur adipisicing <span class=\"tidbit-color tidbit-trigger\" data-bitnum=\"2\"><strong><u>kevin nisi flank</u></strong></span>. Et hamburger frankfurter culpa drumstick. Aliqua capicola do rump, shankle non frankfurter ex pork. Corned beef pork chop ex pig belly pork.</p><p>Aute pancetta picanha <span class=\"tidbit-color tidbit-trigger\" data-bitnum=\"3\"><strong><u>sausage tri-tip</u></strong></span>, id nostrud anim qui filet mignon. Exercitation aute quis nisi pork chop tenderloin magna <span class=\"tidbit-color tidbit-trigger\" data-bitnum=\"4\"><strong><u>porchetta prosciutto</u></strong></span> sint frankfurter tail kielbasa.</p>",
   "displayTitle": "Tidbits",
   "title": "Tidbits",
   "_isAvailable": true,
@@ -13,12 +13,29 @@
   "instruction": "",
   "_tidbits": [
     {
-      "theTitle": "Shankle",
-      "theBody": "<p>Duis proident sed pork loin. Tail porchetta leberkas drumstick irure t-bone duis salami alcatra. Pork loin culpa brisket id consequat, <strong>sausage kielbasa</strong> burgdoggen voluptate doner landjaeger dolore cupidatat chicken.</p>"
+      "theTitle": "shankle",
+      "theBody": "<p>Magna occaecat ex consequat, frankfurter</p>",
+      "_isRequired": true
     },
     {
-      "theTitle": "Biltong",
-      "theBody": "<p>Capicola filet mignon deserunt pastrami bacon turkey lorem meatball occaecat shoulder dolor beef ribs burgdoggen aliquip. <strong>Shankle</strong> qui est, meatball non meatloaf in. Consequat exercitation andouille, shoulder chicken aliqua swine. Turkey hamburger ex shank capicola, aute fatback.</p>"
+      "theTitle": "rump salami",
+      "theBody": "<p>andouille ex excepteur ground round</p>",
+      "_isRequired": false
+    },
+    {
+      "theTitle": "kevin nisi flank",
+      "theBody": "<p>pancetta pariatur adipisicing</p>",
+      "_isRequired": false
+    },
+    {
+      "theTitle": "sausage tri-tip",
+      "theBody": "<p>Aute pancetta picanha</p>",
+      "_isRequired": false
+    },
+    {
+      "theTitle": "porchetta prosciutto",
+      "theBody": "<p>pork chop tenderloin magna</p>",
+      "_isRequired": true
     }
   ]
 }
