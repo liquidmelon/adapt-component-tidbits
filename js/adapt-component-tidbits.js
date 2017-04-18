@@ -62,16 +62,30 @@ define(function(require) {
             this.checkDone();
         },
 
-        // get visited tidbits
-        getAllBitsVisited: function() {
+        // get required tidbits
+        getRequiredBits: function() {
             return _.filter(this.model.get('_tidbits'), function(bit) {
-                return bit._isVisited;
+                return bit._isRequired;
             });
         },
 
-        // set the complete status for component if all tidbits are visited
+        // get visited tidbits
+        /*getAllBitsVisited: function() {
+            return _.filter(this.model.get('_tidbits'), function(bit) {
+                return bit._isVisited;
+            });
+        },*/
+
+        // set the complete status for component if all [required] tidbits are visited
         checkDone: function() {
-            if (this.getAllBitsVisited().length === this.model.get('_tidbits').length) {
+            /*if (this.getAllBitsVisited().length === this.model.get('_tidbits').length) {
+                this.setCompletionStatus();
+            }*/
+            var rBits = this.getRequiredBits()
+            var vBits = _.filter(rBits, function(bit) {
+                return bit._isVisited;
+            });
+            if(rBits.length === vBits.length){
                 this.setCompletionStatus();
             }
         },
@@ -123,6 +137,12 @@ define(function(require) {
                 if (this._isVisibleTop && this._isVisibleBottom) {
                     this.$(this.model.get('inviewElementSelector')).off('inview');
                     //this.setCompletionStatus(); //aq: only complete the component if all tidbits are visited
+
+                    //complete the component if no tidbits are required
+                    var rBits = this.getRequiredBits();
+                    if(rBits.length === 0){
+                        this.setCompletionStatus();
+                    }
                 }
             }
         },
