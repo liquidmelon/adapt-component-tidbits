@@ -30,7 +30,7 @@ data-bitnum: the index of the tidbit to be opened
 
 ## Notes
 
-the text must have at least one link that opens a popup. you must open all popups for the component to be completed.
+all required tidbits must be viewed in order to complete the component.
 
 
 
@@ -41,5 +41,5 @@ not known at this time
 
 
 ----------------------------
-**Version number:** 0.0.1.1<br>
+**Version number:** 0.0.2.0<br>
 **Framework versions:** ^2.0.0
