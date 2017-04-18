@@ -53,6 +53,15 @@
             "inputType": "TextArea",
             "validators": [],
             "translatable": true
+          },
+          "_isRequired": {
+            "type": "boolean",
+            "required": true,
+            "title": "Required",
+            "default": true,
+            "inputType": {"type": "Boolean", "options": [true, false]},
+            "validators": [],
+            "help": "for component completion"
           }
         }
       }
