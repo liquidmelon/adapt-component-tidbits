@@ -1,18 +1,18 @@
 {
-  "name": "adapt-component-tidbits",
-  "repository": "git://github.com/liquidmelon/adapt-component-tidbits.git",
-  "version": "0.0.1.1",
-  "framework": "^2.0.0",
-  "homepage": "https://github.com/liquidmelon/adapt-component-tidbits",
-  "issues": "https://github.com/liquidmelon/adapt-component-tidbits",
-  "displayName" : "Tidbits",
-  "component" : "tidbits",
-  "description": "a text component with links that display more information in a popup",
-  "main": "/js/adapt-component-tidbits.js",
-  "keywords": [
-    "adapt-plugin",
-    "adapt-component"
-  ],
-  "license": "GPLv3",
-  "targetAttribute": "_tidbits"
+    "name": "adapt-component-tidbits",
+    "repository": "git://github.com/liquidmelon/adapt-component-tidbits.git",
+    "framework": "^2.0.0",
+    "version": "0.0.2.0",
+    "homepage": "https://github.com/liquidmelon/adapt-component-tidbits",
+    "issues": "https://github.com/liquidmelon/adapt-component-tidbits",
+    "displayName": "Tidbits",
+    "component": "tidbits",
+    "description": "a text component with links that display more information in a popup",
+    "main": "/js/adapt-component-tidbits.js",
+    "keywords": [
+        "adapt-plugin",
+        "adapt-component"
+    ],
+    "license": "GPLv3",
+    "targetAttribute": "_tidbits"
 }
